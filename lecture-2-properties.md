@@ -48,7 +48,9 @@ Write the CSS to make the cat text blue.
 ```
 
 ```css
-/* css here */
+h2 {
+    color:blue
+}
 
 ```
 
@@ -81,8 +83,9 @@ Write the CSS to make the dogs text red.
 ```
 
 ```css
-/* css here */
-
+.canine {
+  color: red;
+}
 ```
 
 ---
@@ -98,8 +101,10 @@ Write the CSS to make the dogs text red.
 ```
 
 ```css
-/* css here */
 
+h1 {
+  color:red;
+}
 ```
 
 ---
@@ -117,7 +122,7 @@ What color is the `p` element?
 p {
     color: red
 }
-
+/* class overrides paragraph*/
 ```
 
 ---
@@ -181,6 +186,7 @@ We can fix this with the `box-sizing` CSS property.
 * {
     box-sizing: border-box;
 }
+/* to includ the padding and border */
 ```
 
 _What is the meaning of `*`?_
@@ -196,7 +202,7 @@ _What is the meaning of `*`?_
 - block
 - inline-block
 - inline
-- none
+- none VS visibility:hidden;
 - _there are many more_
 
 ---
@@ -210,7 +216,7 @@ _What is the meaning of `*`?_
 ### `display: inline`
 
 - Displays an element as an inline element.
-- Any height and width properties will have no effect.
+- **Any height and width properties will have no effect.*****
 
 ---
 
@@ -253,7 +259,7 @@ _What is the meaning of `*`?_
 
 ### [`display: none`](https://www.w3schools.com/css/tryit.asp?filename=trycss_display_none)
 ### vs. 
-### [`visibility: hidden`](https://www.w3schools.com/css/tryit.asp?filename=trycss_visibility_hidden)
+### [`visibility: hidden`](https://www.w3schools.com/css/tryit.asp?filename=trycss_visibility_hidden) still there just invisible still takes up place
 
 ---
 

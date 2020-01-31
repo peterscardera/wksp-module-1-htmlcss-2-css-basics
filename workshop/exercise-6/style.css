@@ -12,14 +12,22 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+	
 }
 
 h1, h2 {
-    
+	font-family: Impact;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:20px;
+	
+	
 }
-
 h1 {
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 3rem;
+	font-style: italic;
 
 }
 
@@ -28,13 +36,22 @@ h2 {
 }
 
 .row {
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
+text-align: center;
 
 }
 
 .col {
-
+	border: 2px dashed grey;
+	background-color: rgba(236, 236, 236, 1);
+	align-self: center;
+	
 }
-
 .image {
+max-width: 200px;
+max-height:100px;
 
+padding: 0px 30px 20px;
 }

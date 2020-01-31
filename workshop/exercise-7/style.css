@@ -8,5 +8,36 @@ html, body, div, h1, h2, p, ul, li {
 	font: inherit;
 	vertical-align: baseline;
 }
+h2 {
+	padding: 20px;
+}
+ 
+body {
+	font-family: "Bangers",sans-serif;
+	font-size: 2rem;
+	text-align: center;
+}
+section {
+	text-align: left;
+	margin: 20px;
+}
 
-/* ADD CSS BELOW */
+.row {
+	display: flex;
+	justify-content: flex-start;
+	list-style-type: none;
+	text-align: center;
+	padding-top:19px;
+}
+	
+.col {
+	border: 2px dashed grey;
+	background-color: rgba(236, 236, 236, 1);
+	align-self: center;
+	margin-right: 20px;	
+}
+.image {
+	max-width: 200px;
+	max-height:100px;
+	padding: 0px 30px 20px;
+}

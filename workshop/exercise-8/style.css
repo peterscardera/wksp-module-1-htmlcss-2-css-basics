@@ -7,11 +7,11 @@ img {
 }
 
 .img2 {
-
+visibility: hidden; /*still there but hidden instead of it leaving as with display none*/
 }
 
 .img3 {
-
+  visibility: hidden;
 }
 
 .img4 {

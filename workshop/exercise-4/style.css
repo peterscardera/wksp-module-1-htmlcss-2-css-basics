@@ -1,27 +1,39 @@
-#centered {
+
+.centered {
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    font-weight: normal;
+    
+}
+h2 {
+    margin-top: 0px;
+    font-weight: normal;
 }
 
-.title {
-    font-size: 3rem;
+#title {
+    font-size: 2rem;
 }
 
-subtitle {
+#subtitle {
     font-size: 1.5rem;
 }
 
-.div {
+div {
     background-color: gray;
 }
 
-#li {
+li {
     list-style-type: none;
 }
 
-content {
+#content {
     text-decoration: underline;
 }
 
-monospaced {
+.monospaced {
     font-family: monospace;
+    
 }
+
